@@ -1,0 +1,176 @@
+@media (max-width: 1199px) {
+    .buy-btns {
+        flex-wrap: wrap;
+        .btn {
+            margin: 10px;
+        }
+    }
+    .find .find__list {
+        padding: 205px;
+    }
+    .vector {
+        padding: 152px 37px;
+    }
+}
+
+@media (max-width: 992px) {
+    .vector {
+        padding: 66px 99px;
+        font-size: 30px;
+    }
+    .help {
+        padding: 0;
+    }
+    .rules .rules__item {
+        margin: 10px 0;
+        align-items: center;
+    }
+    .footer-links {
+        text-align: center;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero {
+        text-align: center;
+        .buy-btns {
+            justify-content: center;
+            margin-bottom: 30px;
+        }
+    }
+    .vector {
+        padding: 63px 83px;
+        font-size: 20px;
+    }
+    .buy-section .buy-btns {
+        flex-direction: column;
+        .btn {
+            margin: 10px 0;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .hero {
+        padding-top: 60px;
+        padding-bottom: 130px;
+        h1 {
+            font-size: 32px;
+        }
+        h5 {
+            line-height: 30px;
+            font-size: 20px;
+        }
+    }
+    .rounded-circle.w-100 {
+        width: 70% !important;
+    }
+    .buy-btns .btn {
+        font-size: 15px;
+        padding: 5px 20px;
+    }
+    .greeting {
+        padding-bottom: 80px;
+        // .container {
+        //     padding: 0;
+        // }
+        h2 {
+            font-size: 40px;
+        }
+        h4 {
+            font-size: 18px;
+        }
+        .quotes {
+            margin-top: 50px;
+            width: 30%;
+        }
+        h3 {
+            font-size: 32px;
+        }
+        .vector {
+            padding: 70px 0;
+            margin-top: 40px;
+            margin-bottom: 60px;
+            font-size: 18px;
+        }
+    }
+    .how-work {
+        h2 {
+            font-size: 32px;
+        }
+        .subheading {
+            font-size: 18px;
+        }
+        .number {
+            font-size: 50px;
+        }
+        .step-text {
+            font-size: 18px;
+        }
+        .mobile-picture {
+            width: 50%;
+        }
+    }
+    .rules {
+        background-image: none;
+        background: linear-gradient(87.9deg, rgba(3, 120, 236, 0.84) 50.41%, #2fcdff 117.93%);
+        padding-top: 30px;
+        .row {
+            margin-top: 0;
+        }
+        .rules-heading {
+            font-size: 40px;
+        }
+        .rules-text {
+            font-size: 16px;
+        }
+    }
+    .find {
+        padding-top: 100px;
+        padding-bottom: 120px;
+        .find__list {
+            padding: 170px;
+        }
+        .find__list img {
+            width: 80%;
+        }
+        .find-item3 {
+            left: 30%;
+        }
+        .find-heading {
+            font-size: 28px;
+            line-height: 35px;
+        }
+        .find-text {
+            font-size: 18px;
+        }
+    }
+    .buy-section {
+        h4 {
+            font-size: 24px;
+        }
+        h5 {
+            font-size: 18px;
+            padding: 0;
+        }
+    }
+    .footer__list {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 375px) {
+    .find .find__list {
+        padding: 150px;
+    }
+    .find .find-item2 {
+        text-align: right;
+    }
+    .find .find__list img {
+        width: 70%;
+    }
+    .footer__list {
+        font-size: 14px;
+    }
+}

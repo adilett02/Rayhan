@@ -26,35 +26,34 @@ function browsersync() {
 
 function styles() {
     return src('app/scss/style.scss')
-    .pipe(scss({outputStyle: 'compressed'}))
-    .pipe(autoprefixer({
-        overrideBrowserslist: ['last 10 version'],
-        grid: true
-    }))
-    .pipe(dest('app/css'))
-    .pipe(browserSync.stream())
+        .pipe(scss({ outputStyle: 'compressed' }))
+        .pipe(autoprefixer({
+            overrideBrowserslist: ['last 10 version'],
+            grid: true
+        }))
+        .pipe(dest('app/css'))
+        .pipe(browserSync.stream())
 }
 
 function jsLibs(cb) {
 
     const libs = [
-      'node_modules/jquery/dist/jquery.min.js',
-    //   'node_modules/bootstrap/dist/js/bootstrap.js',
-      'node_modules/bootstrap/dist/js/bootstrap.min.js',
-    //   'node_modules/bootstrap/dist/js/bootstrap.bundle.min.js',
+        'node_modules/jquery/dist/jquery.min.js',
+        'node_modules/bootstrap/dist/js/bootstrap.min.js',
+        'node_modules/aos/dist/aos.js',
     ];
-  
+
     if (!libs.length) return cb();
-  
+
     return src(libs)
-      .pipe(concat('libs.min.js'))
-      .pipe(uglify())
-      .pipe(dest('app/js'))
+        .pipe(concat('libs.min.js'))
+        .pipe(uglify())
+        .pipe(dest('app/js'))
 }
 function js() {
 
     return src('app/js/main.js')
-      .pipe(browserSync.stream())
+        .pipe(browserSync.stream())
 }
 function images() {
     return src('app/img/**/*')

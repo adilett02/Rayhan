@@ -9,44 +9,58 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <nav class="navbar navbar-expand-lg bg-white">
         <div class="container">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand mr-5" href="#">
                 <img src="img/logo.png" alt="logo">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <!-- <span class="navbar-toggler-icon"></span> -->
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" height="28" viewBox="0 0 28 28" width="28">
+                    <path
+                        d="M3 7C3 6.44771 3.44772 6 4 6H24C24.5523 6 25 6.44771 25 7C25 7.55229 24.5523 8 24 8H4C3.44772 8 3 7.55229 3 7Z"
+                        fill="black" />
+                    <path
+                        d="M3 14C3 13.4477 3.44772 13 4 13H24C24.5523 13 25 13.4477 25 14C25 14.5523 24.5523 15 24 15H4C3.44772 15 3 14.5523 3 14Z"
+                        fill="black" />
+                    <path
+                        d="M4 20C3.44772 20 3 20.4477 3 21C3 21.5523 3.44772 22 4 22H24C24.5523 22 25 21.5523 25 21C25 20.4477 24.5523 20 24 20H4Z"
+                        fill="black" />
+                </svg>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link text-dark" aria-current="page" href="#">Правила</a>
+                        <a class="nav-link" aria-current="page" href="#">Правила</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark" href="#">Как это работает ?</a>
+                        <a class="nav-link" href="#">Как это работает ?</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark" href="#">Анкеты</a>
+                        <a class="nav-link" href="#">Анкеты</a>
                     </li>
                 </ul>
-                <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                <ul class="navbar-nav ml-auto mb-2 mb-lg-0 align-items-center">
                     <li class="mr-3">
-                        <a class="nav-link text-dark" href="#">Instagram
+                        <a class="nav-link" href="#">Instagram
                             <img src="img/icons/instagram-icon.svg" alt="">
                         </a>
                     </li>
-                    <button class="btn download-btn">
+                    <!-- <button class="btn download-btn">
+                        
+                    </button> -->
+                    <a class="btn download-btn" href="#">
                         Скачать приложение
-                    </button>
+                    </a>
                 </ul>
             </div>
         </div>
     </nav>
     <section class="hero">
         <div class="container">
-            <div class="row">
-                <div class="col-7 pt-5">
+            <div class="row align-items-center">
+                <div class="col-md-7 pt-5">
                     <h1>
                         Приложение для серьёзных отношений
                     </h1>
@@ -64,8 +78,8 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-5">
-                    <img class="rounded-circle" src="img/hero-img.png" alt="">
+                <div class="col-md-5">
+                    <img class="rounded-circle w-100" src="img/hero-img.png" alt="">
                 </div>
             </div>
         </div>
@@ -120,8 +134,8 @@
             <span class="subheading">
                 Очень простой и понятный гайд как использовать приложение
             </span>
-            <div class="row align-items-center mt-5">
-                <div class="col-5">
+            <div class="row align-items-center mt-5 flex-column-reverse flex-lg-row justify-content-between">
+                <div class="col-lg-5">
                     <div class="number">
                         01
                     </div>
@@ -130,15 +144,15 @@
                         просматривать чужие анкеты и быть открытым для остальных пользователей.
                     </p>
                 </div>
-                <div class="col-6">
+                <div class="col-lg-6">
                     <img src="img/step1.png" alt="">
                 </div>
             </div>
-            <div class="row align-items-center">
-                <div class="col-6">
-                    <img src="img/step2.png" alt="">
+            <div class="row mt-5 align-items-center justify-content-between">
+                <div class="col-lg-6 text-center text-sm-center">
+                    <img class="mobile-picture" src="img/step2.png" alt="">
                 </div>
-                <div class="col-5">
+                <div class="col-lg-5">
                     <div class="number">
                         02
                     </div>
@@ -148,8 +162,8 @@
                     </p>
                 </div>
             </div>
-            <div class="row align-items-center">
-                <div class="col-5">
+            <div class="row mt-5 align-items-center flex-column-reverse flex-lg-row justify-content-between">
+                <div class="col-lg-5">
                     <div class="number">
                         03
                     </div>
@@ -158,15 +172,15 @@
                         они, в свою очередь, оценив Вашу анкету, могут поставить лайк в ответ.
                     </p>
                 </div>
-                <div class="col-6">
+                <div class="col-lg-6">
                     <img src="img/step3.png" alt="">
                 </div>
             </div>
-            <div class="row align-items-center">
-                <div class="col-6">
-                    <img src="img/step4.png" alt="">
+            <div class="row mt-5 align-items-center justify-content-between">
+                <div class="col-lg-6 text-center text-sm-center">
+                    <img class="mobile-picture" src="img/step4.png" alt="">
                 </div>
-                <div class="col-5">
+                <div class="col-lg-5">
                     <div class="number">
                         04
                     </div>
@@ -181,7 +195,7 @@
     <section class="rules">
         <div class="container">
             <div class="row align-items-end">
-                <div class="col-7">
+                <div class="col-lg-7 mb-5 mb-lg-0 p-sm-0">
                     <div class="rules-heading">
                         Правила
                     </div>
@@ -196,7 +210,7 @@
                         А также, мы ждём от Вас соблюдение данных пунктов:
                     </span>
                 </div>
-                <div class="col-5">
+                <div class="col-lg-5">
                     <div class="rules__item">
                         <div class="done">
                             <img src="img/icons/done.svg" alt="">
@@ -227,8 +241,8 @@
     </section>
     <section class="find">
         <div class="container">
-            <div class="row">
-                <div class="col-6">
+            <div class="row justify-content-between align-items-center flex-lg-row flex-column-reverse">
+                <div class="col-lg-6 mt-5 mt-lg-0">
                     <div class="find-heading">
                         Найди свою Любовь
                         из тысячи пользователей
@@ -241,13 +255,30 @@
                         Найти
                     </button>
                 </div>
-                <div class="col-5">
-                    <img src="img/pictures/picture1.png" alt="">
-                    <img src="img/pictures/picture2.png" alt="">
-                    <img src="img/pictures/picture3.png" alt="">
-                    <img src="img/pictures/picture4.png" alt="">
-                    <img src="img/pictures/picture5.png" alt="">
-                    <img src="img/pictures/picture6.png" alt="">
+                <div class="col-lg-5">
+                    <div class="find__list">
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="find-item1">
+                            <img src="img/pictures/picture1.png" alt="">
+                        </div>
+                        <div class="find-item2">
+                            <img src="img/pictures/picture2.png" alt="">
+                        </div>
+                        <div class="find-item3">
+                            <img src="img/pictures/picture3.png" alt="">
+                        </div>
+                        <div class="find-item4">
+                            <img src="img/pictures/picture4.png" alt="">
+                        </div>
+                        <div class="find-item5">
+                            <img src="img/pictures/picture5.png" alt="">
+                        </div>
+                        <div class="find-item6">
+                            <img src="img/pictures/picture6.png" alt="">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -277,32 +308,35 @@
     </section>
     <footer class="py-3">
         <div class="container">
-            <div class="row align-items-center justify-content-between">
-                <div class="footer-logo">
+            <div class="footer__list">
+                <div class="footer-logo mr-0 mr-sm-5">
                     <img src="img/logo.png" alt="">
                 </div>
-                <div class="adress">
-                    <a href="#">Адрес:</a>
-                    <span>ул. Шаттык 21,</span>
-                    <span>г. Бишкек,</span>
-                    <span>Кыргызстан</span>
+                <div class="footer-links">
+                    <div class="adress">
+                        <a href="#">Адрес:</a>
+                        <span>ул. Шаттык 21,</span>
+                        <span>г. Бишкек,</span>
+                        <span>Кыргызстан</span>
+                    </div>
+                    <div class="email">
+                        <a href="#">
+                            Email:
+                        </a>
+                        <span>
+                            rayhankanybek@gmail.com
+                        </span>
+                    </div>
+                    <div class="phone-number">
+                        <span>
+                            (+996) 553-076-699 -
+                        </span>
+                        <a href="#">
+                            Whatsapp
+                        </a>
+                    </div>
                 </div>
-                <div class="email">
-                    <a href="#">
-                        Email:
-                    </a>
-                    <span>
-                        rayhankanybek@gmail.com
-                    </span>
-                </div>
-                <div class="phone-number">
-                    <span>
-                        (+996) 553-076-699 -
-                    </span>
-                    <a href="#">
-                        Whatsapp
-                    </a>
-                </div>
+
             </div>
 
         </div>
