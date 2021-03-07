@@ -41,6 +41,7 @@ function jsLibs(cb) {
         'node_modules/jquery/dist/jquery.min.js',
         'node_modules/bootstrap/dist/js/bootstrap.min.js',
         'node_modules/aos/dist/aos.js',
+        'node_modules/jquery-easing/dist/jquery.easing.1.3.umd.min.js',
     ];
 
     if (!libs.length) return cb();

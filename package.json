@@ -22,6 +22,7 @@
     "gulp-webp": "^4.0.1",
     "gulp-webp-html": "^1.0.2",
     "gulp-webpcss": "^1.1.1",
-    "jquery": "^3.5.1"
+    "jquery": "^3.5.1",
+    "jquery-easing": "0.0.1"
   }
 }

@@ -7,6 +7,9 @@
 body {
     font-family: "BellotaText-Regular";
 }
+.row {
+    overflow-x: hidden;
+}
 nav.navbar {
     box-shadow: 4px 0 20px -5px rgba(0, 0, 0, 0.2);
     position: fixed;
@@ -35,7 +38,6 @@ nav.navbar {
     }
     .nav-link {
         color: #000;
-        padding: 0 20px;
         &:hover {
             color: #3189f7 !important;
         }
@@ -151,6 +153,9 @@ nav.navbar {
     .step-text {
         font-size: 28px;
         font-family: "BellotaText-Regular";
+    }
+    .mobile-picture {
+        width: auto;
     }
 }
 
