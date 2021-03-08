@@ -7,8 +7,13 @@
 body {
     font-family: "BellotaText-Regular";
 }
-.row {
-    overflow-x: hidden;
+@keyframes move-btn {
+    0% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(-3px);
+    }
 }
 nav.navbar {
     box-shadow: 4px 0 20px -5px rgba(0, 0, 0, 0.2);
@@ -227,10 +232,10 @@ nav.navbar {
         background: linear-gradient(124.02deg, #066aff -2.98%, #46d3ff 76.01%);
         margin-top: 30px;
         font-size: 28px;
-        border-bottom: 6px solid #286da7;
+        border: none;
+        box-shadow: 0 6px 2px 0px #286da7;
         &:hover {
-            -webkit-box-shadow: 0px 0px 12px 0px rgba(49, 137, 247, 0.81);
-            box-shadow: 0px 0px 12px 0px rgba(49, 137, 247, 0.81);
+            animation: 0.4s linear 0s infinite alternate move-btn;
         }
     }
     .find__list {
