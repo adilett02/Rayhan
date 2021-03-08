@@ -29,6 +29,9 @@
         text-align: center;
         flex-direction: column;
     }
+    .buy-section h5 {
+        padding: 0;
+    }
 }
 
 @media (max-width: 768px) {
@@ -95,7 +98,7 @@
             font-size: 32px;
         }
         .vector {
-            padding: 70px 0;
+            padding: 70px 15px;
             margin-top: 40px;
             margin-bottom: 60px;
             font-size: 18px;
@@ -161,6 +164,11 @@
         }
         .find-text {
             font-size: 18px;
+        }
+        .find-btn {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
         }
     }
     .buy-section {
