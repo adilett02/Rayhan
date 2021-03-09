@@ -30,12 +30,13 @@ nav.navbar {
     }
     .download-btn {
         height: max-content;
-        padding: 5px 25px;
-        background-color: #3189f7;
-        border-radius: 10px;
+        padding: 10px 36px;
+        background: linear-gradient(124.02deg, #066aff -2.98%, #46d3ff 76.01%);
+        border-radius: 42px;
         color: #fff;
         font-family: "BellotaText-Bold";
         font-size: 15px;
+        border: none;
         &:hover {
             -webkit-box-shadow: 0px 0px 12px 0px rgba(49, 137, 247, 0.81);
             box-shadow: 0px 0px 12px 0px rgba(49, 137, 247, 0.81);
