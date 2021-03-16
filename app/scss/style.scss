@@ -15,11 +15,26 @@ body {
         transform: translateY(-3px);
     }
 }
+.download-btn {
+    height: max-content;
+    padding: 10px 36px;
+    background: linear-gradient(124.02deg, #066aff -2.98%, #46d3ff 76.01%);
+    border-radius: 42px;
+    color: #fff;
+    font-family: "BellotaText-Bold";
+    font-size: 15px;
+    border: none;
+    &:hover {
+        -webkit-box-shadow: 0px 0px 12px 0px rgba(49, 137, 247, 0.81);
+        box-shadow: 0px 0px 12px 0px rgba(49, 137, 247, 0.81);
+        color: #fff;
+    }
+}
 nav.navbar {
     box-shadow: 4px 0 20px -5px rgba(0, 0, 0, 0.2);
     position: fixed;
     width: 100%;
-    z-index: 9999;
+    z-index: 99;
     font-family: "Rockwell-Regular";
     font-size: 15px;
     top: -1px;
@@ -28,20 +43,7 @@ nav.navbar {
     .navbar-nav.mr-auto {
         font-family: "BellotaText-Bold";
     }
-    .download-btn {
-        height: max-content;
-        padding: 10px 36px;
-        background: linear-gradient(124.02deg, #066aff -2.98%, #46d3ff 76.01%);
-        border-radius: 42px;
-        color: #fff;
-        font-family: "BellotaText-Bold";
-        font-size: 15px;
-        border: none;
-        &:hover {
-            -webkit-box-shadow: 0px 0px 12px 0px rgba(49, 137, 247, 0.81);
-            box-shadow: 0px 0px 12px 0px rgba(49, 137, 247, 0.81);
-        }
-    }
+
     .nav-link {
         color: #000;
         &:hover {
@@ -350,4 +352,22 @@ footer {
     display: flex;
     justify-content: space-between;
 }
+
+.modal-dialog {
+    max-width: 520px;
+}
+.modal {
+    top: 30%;
+}
+.my-modal {
+    padding: 30px;
+    font-size: 18px;
+    h5 {
+        font-weight: bold;
+    }
+    .download-btn {
+        width: 100%;
+    }
+}
+
 @import "media.scss";
