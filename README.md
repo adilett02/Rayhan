@@ -1,3 +1,13 @@
-### Landing page for a dating site app
+### Dating app landing page
+Semantic, adaptive landing page for a dating app. One of my first freelance projects.
 
-https://promo.rayhan.one/
+#### Technologies:
+* HTML5, 
+* SCSS 
+* JavaScript
+* Gulp
+* Bootstrap
+* Aos
+
+#### [Demo](https://promo.rayhan.one/)
+
