@@ -1,4 +1,4 @@
-### Dating app landing page
+## Dating app landing page
 Semantic, adaptive landing page for a dating app. One of my first freelance projects.
 
 #### Technologies:
